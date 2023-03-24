@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utility.ListenersTestNG"></listener>
+	</listeners>
+	<test name="Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			 <class name="smokeTest.Bonus"/>
+        	
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

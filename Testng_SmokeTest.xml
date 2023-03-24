@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utility.ListenersTestNG"></listener>
+	</listeners>
+	<test name="Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			
+			<class name="smokeTest.SC001_SignInSignUp"/>
+        	<class name="smokeTest.SC002_ForgotPassword"/>
+       		<class name="smokeTest.SC003_ValidateDashboardAndDropdowns"/> 
+       		<class name="smokeTest.SC004_SearchViewRegisteredCourses"/>
+			<class name="smokeTest.SC006_Payment_API" />
+			<class name="smokeTest.SC007_Payment_UARewardsAPI" />
+			<class name="smokeTest.SC008_Payment_BdayAPI" /> 
+			<class name="smokeTest.SC009_Payment_ManualSettlement_OrderId" /> 
+			<class name="smokeTest.SC010_Payment_ManualSettlement_EmailId" />
+			<class name="smokeTest.SC012_Payment_UARewards_0Amount" />
+			<class name="smokeTest.SC011_Payment_ManualSettlement_OrderId_BirthdayOffer" />
+			<class name="smokeTest.SC013_Payment_ManualSettlement_OrderId_UARewards" />
+			
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
